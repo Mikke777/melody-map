@@ -31,9 +31,6 @@ gem "actioncable-enhanced-postgresql-adapter"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
-# Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem "jbuilder"
-
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
@@ -66,6 +63,7 @@ group :development, :test do
   gem "ostruct"
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false
+  gem "rspec-rails"
 end
 
 group :development do

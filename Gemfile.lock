@@ -133,6 +133,7 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    diff-lcs (1.6.2)
     dotenv (3.1.2)
     dotenv-rails (3.1.2)
       dotenv (= 3.1.2)
@@ -172,9 +173,6 @@ GEM
     irb (1.14.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    jbuilder (2.12.0)
-      actionview (>= 5.0.0)
-      activesupport (>= 5.0.0)
     json (2.12.0)
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
@@ -283,6 +281,23 @@ GEM
       railties (>= 5.2)
     rexml (3.3.6)
       strscan
+    rspec-core (3.13.3)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.4)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.4)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-rails (7.1.1)
+      actionpack (>= 7.0)
+      activesupport (>= 7.0)
+      railties (>= 7.0)
+      rspec-core (~> 3.13)
+      rspec-expectations (~> 3.13)
+      rspec-mocks (~> 3.13)
+      rspec-support (~> 3.13)
+    rspec-support (3.13.3)
     rubocop (1.75.6)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
@@ -389,13 +404,13 @@ DEPENDENCIES
   font-awesome-sass (~> 6.1)
   geocoder
   importmap-rails (~> 1.2.3)
-  jbuilder
   noticed (~> 2.4)
   ostruct
   pg (~> 1.1)
   pg_search
   puma (>= 5.0)
   rails (~> 7.1.4)
+  rspec-rails
   rubocop-rails-omakase
   sassc-rails
   selenium-webdriver
