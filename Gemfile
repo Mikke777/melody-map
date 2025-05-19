@@ -63,6 +63,7 @@ group :development, :test do
   gem "ostruct"
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false
+  gem "rubocop-discourse", require: false
   gem "rspec-rails"
 end
 
